@@ -10,9 +10,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library": "vue-cli-service build --target lib --name my-button ./src/install.js"
+    "build-library": "vue-cli-service build --target lib --name shareable-components-poc ./src/install.js"
   },
-  "main" : "./dist/my-button.common.js",
+  "main" : "./dist/shareable-components-poc.common.js",
   "files": [
     "dist/*"
   ],
