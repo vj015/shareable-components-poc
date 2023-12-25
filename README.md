@@ -1,19 +1,34 @@
-# shareable-components-poc
+# vue-elegant-button
 
 ## Project setup
+
 ```
-npm install
+npm install --save my-button
 ```
 
-### Compiles and hot-reloads for development
+or
+
 ```
-npm run serve
+yarn add my-button
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Basic Usage
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+<template>
+  <MyButton
+    background="#fff"
+    color="#000"
+    text="Hello World"
+  />
+</template>
+<script>
+import MyButton from "my-button";
+
+export default {
+  components:{
+    MyButton
+  }
+}
+</script>
+```

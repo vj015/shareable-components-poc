@@ -12,6 +12,10 @@
     "build": "vue-cli-service build",
     "build-library": "vue-cli-service build --target lib --name my-button ./src/install.js"
   },
+  "main" : "./dist/my-button.common.js",
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "vue": "^3.2.13"
   },
