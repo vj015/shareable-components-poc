@@ -1,15 +1,15 @@
-# vue-elegant-button
+# shareable-components-poc
 
 ## Project setup
 
 ```
-npm install --save my-button
+npm install --save shareable-components-poc
 ```
 
 or
 
 ```
-yarn add my-button
+yarn add shareable-components-poc
 ```
 
 ## Basic Usage
@@ -23,7 +23,7 @@ yarn add my-button
   />
 </template>
 <script>
-import MyButton from "my-button";
+import MyButton from "shareable-components-poc";
 
 export default {
   components:{
