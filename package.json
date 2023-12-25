@@ -1,10 +1,16 @@
 {
   "name": "shareable-components-poc",
+  "description": "A vue package to create elegant buttons.",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "vipul",
+    "email": "vjain2376@gmail.com"
+},
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name my-button ./src/install.js"
   },
   "dependencies": {
     "vue": "^3.2.13"
