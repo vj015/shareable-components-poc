@@ -1,7 +1,7 @@
 {
   "name": "shareable-components-poc",
   "description": "A vue package to create elegant buttons.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "author": {
     "name": "vipul",
@@ -14,7 +14,11 @@
   },
   "main" : "./dist/shareable-components-poc.common.js",
   "files": [
-    "dist/*"
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
   ],
   "dependencies": {
     "vue": "^3.2.13"
